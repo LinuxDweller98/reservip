@@ -1,6 +1,10 @@
 Hi,
 
+Just a fun Little project i decided to spend a few hours on during the weekend. 
+
 This will only work if you have a Tele2 wifi hub C2.
+
+Showcase: https://www.youtube.com/watch?v=6XQjibwpra0&ab_channel=AlbinNyholm 
 
 1. Install dependencies in a virtual python environment .venv inside of this folder.
 
