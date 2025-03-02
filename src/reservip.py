@@ -109,11 +109,12 @@ def attempt_login(driver, username_value, password_value):
 
 def set_arg_parser():
     description = """
-    Reserves a static IP address for a given MAC address through your routers
-    web interface.
-    
-    DISCLAIMER: This script will only work if you have a tele2 wifi hub C2 
-    router, unless you wanna change the code to work for your specific model :).
+    Reserves a static IP address for a given MAC address through your 
+    routers web interface.
+
+    DISCLAIMER: This script will only work if you have a tele2 wifi hub 
+    C2 router, unless you wanna change the code to work for your specific
+    model :).
 
     USAGE: reserveip <mac_address> <ip_address>
     """
