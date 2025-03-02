@@ -108,9 +108,15 @@ def attempt_login(driver, username_value, password_value):
         log_message("Login button clicked.")
 
 def set_arg_parser():
-    description = """Reserves a static IP address for a given MAC address through your routers web interface.
-    DISCLAIMER: This script will only work if you have a tele2 wifi hub C2 router, unless you wanna change the code to work for your specific model :).
-    USAGE: reserveip <mac_address> <ip_address>"""
+    description = """
+    Reserves a static IP address for a given MAC address through your routers
+    web interface.
+    
+    DISCLAIMER: This script will only work if you have a tele2 wifi hub C2 
+    router, unless you wanna change the code to work for your specific model :).
+
+    USAGE: reserveip <mac_address> <ip_address>
+    """
     parser = argparse.ArgumentParser(description)
     parser.add_argument('mac', type=str, help='Mac address in format xx:xx:xx:xx:xx:xx')
     parser.add_argument('ip', type=str, help='IP address in format xxx.xxx.xxx.xxx')
